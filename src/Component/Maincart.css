@@ -1,0 +1,21 @@
+.Maincart{
+    /* border: 2px solid yellow; */
+    width: 100%;
+}
+.Maincartheading h1{
+    /* border: 4px solid green; */
+    height: 15vh;
+    width: 100%;
+    color: #596aff;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MaincartDiv{
+    /* border: 2px solid blue; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

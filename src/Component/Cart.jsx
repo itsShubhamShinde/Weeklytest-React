@@ -1,10 +1,14 @@
 import React from 'react'
 import './Cart.css'
 
-const Cart = () => {
+const Cart = (props) => {
   return (
     <div className='cartOuterDiv'>
-      
+      <div className='ImageDiv'><img src={props.bg}/></div>
+
+      <div className='HeadingDiv'>
+        <h1>{props.Heading}</h1>
+      </div>
     </div>
   )
 }
