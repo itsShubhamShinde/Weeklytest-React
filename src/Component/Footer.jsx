@@ -1,4 +1,5 @@
 import "./Footer.css";
+import { FaFacebookF,FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -45,19 +46,19 @@ export default function Footer() {
             <div className="footerlist contactlinks">
               <p>
                 <a href="https://google.com">
-                  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                <FaFacebookF/>
                 </a>
                 Facebook
               </p>
               <p>
                 <a href="https://google.com">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <FaLinkedinIn/>
                 </a>
                 Linkedin
               </p>
               <p>
                 <a href="https://google.com">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <FaInstagram/>
                 </a>
                 Instagram
               </p>
